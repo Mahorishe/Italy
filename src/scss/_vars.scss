@@ -1,0 +1,17 @@
+$title: #ff0000;
+$slider-bg: #0c93a4;
+$promo-bg: #029044;
+
+%roboto-400{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+%roboto-700{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+%bold-text{
+  @extend %roboto-700;
+}

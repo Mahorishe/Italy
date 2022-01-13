@@ -1,0 +1,16 @@
+html,
+body{
+  height: 100%;
+}
+body {
+  @extend %roboto-400;
+  background-image: url('../images/body-bg.png');
+  background-position: center 70px;
+  background-repeat: no-repeat;
+  font-size: 14px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
